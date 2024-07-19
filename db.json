@@ -1,0 +1,76 @@
+{
+    "members": [
+      {
+        "id": "1",
+        "name": "Waweru Shaz",
+        "workout": "Pilates",
+        "membership-expiry": "30/07/24"
+      },
+      {
+        "id": "2",
+        "name": "Karani Job",
+        "workout": "Bulgarian Splits",
+        "membership-expiry": "08/08/2024"
+      },
+      {
+        "id": "3",
+        "name": "Costa Ricky",
+        "workout": "Romanian Deadlifts",
+        "membership-expiry": "08/08/2024"
+      },
+      {
+        "id": "4",
+        "name": "Kasi Mwendo",
+        "workout": "Sit Ups",
+        "membership-expiry": "10/08/2024"
+      },
+      {
+        "id": "5",
+        "name": "Ali Moha",
+        "workout": "Push Ups",
+        "membership-expiry": "03/08/2024"
+      },
+      {
+       "id": "6",
+        "name": "Chepruto Stella",
+        "workout": "Yoga",
+        "membership-expiry": "08/08/2024"
+      },
+      {
+       "id": "7",
+        "name": "Mwamba Pita",
+        "workout": "Preacher Curls",
+        "membership-expiry": "29/07/2024"
+      },
+      {
+        "id": "8",
+        "name": "Kitawe Yano",
+        "workout": "Bench Press",
+        "membership-expiry": "08/08/2024"
+      },
+      {
+        "id": "9",
+        "name": "Njoro Charty",
+        "workout": "Russian Twists",
+        "membership-expiry": "04/08/2024"
+      },
+      {
+        "id": "10",
+        "name": "Mwadili Katerina",
+        "workout": "Cardio",
+        "membership-expiry": "12/08/2024"
+      },
+      {
+        "id": "11",
+        "name": "Miles Jojo",
+        "workout": "Lunges",
+        "membership-expiry": "08/08/2024"
+      },
+      {
+        "id": "12",
+        "name": "Ash Baks",
+        "workout": "Squats",
+        "membership-expiry": "04/08/2024"
+      }
+    ]
+}

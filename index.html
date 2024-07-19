@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym App</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./src/favicon.svg" type="image/svg+xml">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./src/styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+  <!-- Header Section -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <ion-icon name="barbell-sharp" aria-label="Barbell icon"></ion-icon>
+        <span class="span">Gym Hercules</span>
+      </a>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-label="Close menu"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+          <li><a href="#home" class="navbar-link active" data-nav-link>Home</a></li>
+          <li><a href="#about" class="navbar-link" data-nav-link>About Us</a></li>
+          <li><a href="#class" class="navbar-link" data-nav-link>Classes</a></li>
+          <li><a href="#contact" class="navbar-link" data-nav-link>Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Join Now Button -->
+      <a href="#" class="btn btn-secondary">Join Now</a>
+
+      <!-- Mobile Navigation Open Button -->
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- Hero Section -->
+      <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+            <p class="hero-subtitle">
+              <strong class="strong">Amazing</strong>Fitness Club
+            </p>
+            <h1 class="h1 hero-title">Healthy Living, Wealthy Life</h1>
+            <p class="section-text">The difference between the best, and the rest is dedication</p>
+            <a href="#" class="btn btn-primary">Get Started</a>
+          </div>
+
+          <div class="hero-banner">
+            <img src="./src/gym-cover.png" width="660" height="753" alt="hero banner" class="w-100">
+            <img src="./src/hero-circle-one.png" width="666" height="666" aria-hidden="true" alt="" class="circle circle-1">
+            <img src="./src/hero-circle-two.png" width="666" height="666" aria-hidden="true" alt="" class="circle circle-2">
+          </div>
+
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner has-after">
+            <img src="./src/about-banner.jpg" width="660" height="648" loading="lazy" alt="about banner" class="w-100">
+            <img src="./src/about-circle-one.png" width="660" height="534" loading="lazy" aria-hidden="true" alt="" class="circle circle-1">
+            <img src="./src/about-circle-two.png" width="660" height="534" loading="lazy" aria-hidden="true" alt="" class="circle circle-2">
+          </div>
+
+          <div class="about-content">
+            <p class="section-subtitle">About Us</p>
+            <h2 class="h2 section-title">Welcome To Our Fitness Gym</h2>
+            <p class="section-text">Our trainers are ready to cater to your needs and help you get in the best shape of your life! Drop by for a free brief overview of our facilities/services or schedule a call.</p>
+            <p class="section-text">This is more than just a gym, you are joining a team, a family of people sharing the same goals of living better, fitter lives.</p>
+
+            <div class="wrapper">
+              <div class="about-coach">
+                <figure class="coach-avatar">
+                  <img src="./src/about-coach.jpg" width="100" height="100" loading="lazy" alt="Trainer">
+                </figure>
+                <div>
+                  <h3 class="h3 coach-name">Shari Nguvu</h3>
+                  <p class="coach-title">Our Coach</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary">Explore More</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Classes Section -->
+      <section class="section class has-bg-image" id="class" aria-label="class">
+        <div class="container">
+          <p class="section-subtitle">Our Classes</p>
+          <h2 class="h2 section-title text-center">Fitness Classes For Every Goal</h2>
+
+          <ul class="class-list has-scrollbar">
+            <li class="scrollbar-item">
+              <div class="class-card">
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./src/class-1.jpg" width="416" height="240" loading="lazy" alt="Weight Lifting" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <div class="title-wrapper">
+                    <img src="./src/class-icon-1.png" width="52" height="52" aria-hidden="true" alt="" class="title-icon">
+                    <h3 class="h3"><a href="#" class="card-title">Weight Lifting</a></h3>
+                  </div>
+                  <p class="card-text">Weight-based exercises to target muscle growth from beginner to advanced level</p>
+                  <div class="card-progress">
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Full</p>
+                      <span class="progress-value">85%</span>
+                    </div>
+                    <div class="progress-br">
+                      <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./src/class-2.jpg" width="416" height="240" loading="lazy" alt="Cardio & Strength"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./src/class-icon-2.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Cardio & Strength</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Enhance strength and endurance.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Full</p>
+
+                      <span class="progress-value">70%</span>
+                    </div>
+
+                    <div class="progress-br">
+                      <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./src/class-3.jpg" width="416" height="240" loading="lazy" alt="Power Yoga"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./src/class-icon-3.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Power Yoga</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    General mind and body wellness.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Full</p>
+
+                      <span class="progress-value">90%</span>
+                    </div>
+
+                    <div class="progress-br">
+                      <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <!-- Membership Section -->
+      <section class="section membership" id="membership" aria-label="membership">
+        <div class="container">
+          <p class="section-subtitle">Membership</p>
+          <h2 class="h2 section-title text-center">Manage Membership</h2>
+          <div id="feedback" class="feedback"></div>
+          <div id="member-list">
+            <h3 class="h3">Current Members</h3>
+            <ul id="members"></ul>
+          </div>
+          <div id="add-member">
+            <h3 class="h3">New Members</h3>
+            <form id="member-form">
+              <input type="hidden" id="member-id">
+              <input type="text" id="name" placeholder="Member Name" required>
+              <input type="date" id="membership-end" required>
+              <input type="text" id="favorite-workout" placeholder="Favorite Workout">
+              <button type="submit">Save</button>
+            </form>
+          </div>
+          <div id="filter-members">
+            <h3 class="h3">Expiring Memberships</h3>
+            <input type="date" id="filter-date">
+            <button id="filter-button">Filter</button>
+            <ul id="filtered-members"></ul>
+          </div>
+        </div>
+      </section>
+      
+    </article>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+      <div class="container">
+        
+        <div class="footer-brand">
+            <a href="#" class="logo">
+                <ion-icon name="barbell-sharp" aria-label="Barbell icon"></ion-icon>
+                <span class="span">Gym Hercules</span>
+            </a>
+            <p class="footer-brand-text">You gotta start from somewhere, why not here?</p>
+            <div class="wrapper">
+                <img src="./src/footer-clock.png" width="34" height="34" loading="lazy" alt="Clock">
+                <ul class="footer-brand-list">
+                    <li>
+                        <p class="footer-brand-title">Monday - Friday</p>
+                        <p>0600Hrs - 2100Hrs</p>
+                    </li>
+                    <li>
+                        <p class="footer-brand-title">Saturday - Sunday</p>
+                        <p>0700Hrs - 1300Hrs</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <ul class="footer-list">
+            <li><p class="footer-list-title has-before">Our Links</p></li>
+            <li><a href="#" class="footer-link">Home</a></li>
+            <li><a href="#" class="footer-link">About Us</a></li>
+            <li><a href="#" class="footer-link">Classes</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+        </ul>
+
+        <ul class="footer-list">
+            <li><p class="footer-list-title has-before">Contact Us</p></li>
+            <li class="footer-list-item">
+                <div class="icon">
+                    <ion-icon name="location" aria-label="Location icon"></ion-icon>
+                </div>
+                <address class="address footer-link">Corner, Off Naivasha Road, Nairobi-Kenya</address>
+            </li>
+            <li class="footer-list-item">
+                <div class="icon">
+                    <ion-icon name="call" aria-label="Call icon"></ion-icon>
+                </div>
+                <div>
+                    <a href="tel:36758837283" class="footer-link">3675-883-7283</a>
+                    <a href="tel:+254775300941" class="footer-link">+25 477-5300941</a>
+                </div>
+            </li>
+            <li class="footer-list-item">
+                <div class="icon">
+                    <ion-icon name="mail" aria-label="Mail icon"></ion-icon>
+                </div>
+                <div>
+                    <a href="mailto:info@gyhercules.com" class="footer-link">info@gyhercules.com</a>
+                    <a href="mailto:services@gyhercules.com" class="footer-link">services@gyhercules.com</a>
+                </div>
+            </li>
+        </ul>
+        
+        <ul class="footer-list">
+            <li>
+                <p class="footer-list-title has-before">Our Newsletter</p>
+            </li>
+            <li>
+                <form action="" class="footer-form">
+                    <input type="email" name="email_address" aria-label="email" placeholder="Email Address" required class="input-field">
+                    <button type="submit" class="btn btn-primary" aria-label="Submit">
+                        <ion-icon name="chevron-forward-sharp" aria-label="Submit"></ion-icon>
+                    </button>
+                </form>
+            </li>
+            <li>
+                <ul class="social-list">
+                    <li><a href="#" class="social-link"><ion-icon name="logo-facebook" aria-label="Facebook icon"></ion-icon></a></li>
+                    <li><a href="#" class="social-link"><ion-icon name="logo-instagram" aria-label="Instagram icon"></ion-icon></a></li>
+                    <li><a href="#" class="social-link"><ion-icon name="logo-twitter" aria-label="Twitter icon"></ion-icon></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="footer-bottom">
+    <div class="container">
+        <p class="copyright">&copy; 2024 Gym Hercules. All Rights Reserved.</a></p>
+        <ul class="footer-bottom-list">
+            <li><a href="#" class="footer-bottom-link has-before">Privacy Policy</a></li>
+            <li><a href="#" class="footer-bottom-link has-before">Terms & Condition</a></li>
+        </ul>
+    </div>
+</div>
+</footer>
+
+<!-- Back to Top Button -->
+<a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-label="Back to top"></ion-icon>
+</a>
+
+<!-- Custom JS -->
+<script src="./index.js" defer></script>
+
+<!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
